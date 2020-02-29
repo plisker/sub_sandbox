@@ -93,7 +93,7 @@ section h2 {
 
 .singer-songwriter {
     background: url('../../images/mic-bw.jpg') #ffffff;
-    background-position: left;
+    background-position: 10% 0%;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -116,13 +116,6 @@ section h2 {
 
 .singer-songwriter a:active h2 {
     color: #e19ded;
-}
-
-.singer-songwriter {
-    background: url('../../images/mic-bw.jpg') #ffffff;
-    background-position: 10% 0%;
-    background-size: cover;
-    background-blend-mode: multiply;
 }
 
 @media screen and (max-width: 1110px) {
