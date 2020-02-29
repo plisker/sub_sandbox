@@ -22,6 +22,13 @@ h1 {
     }
 }
 
+@supports not (-webkit-text-stroke: 3px black) {
+    h1 {
+        background: rgba(217, 162, 115, 0.8);
+        border-radius: 20px;
+    }
+}
+
 h2 {
     font-family: "Lato", sans-serif;
 }
@@ -56,8 +63,6 @@ section:hover {
 }
 
 section h1 {
-    /* background: rgba(217, 162, 115, 0.8); */
-    /* border-radius: 20px; */
     color: #d9a273;
     padding: 6px 32px;
     position: absolute;
