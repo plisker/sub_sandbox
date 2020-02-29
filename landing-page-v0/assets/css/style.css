@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 4;
+    transition: all 0.7s;
+}
+
+img {
+    width: 18em;
+    height: 18em;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -9em;
+    transform: translateY(-50%);
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    section {
+        height: 50vh;
+    }
+
+    img {
+        width: 14em;
+        height: 14em;
+        border-radius: 50%;
+        position: absolute;
+        top: 100%;
+        right: 50vw;
+        transform: translateX(50%) translateY(-50%);
+    }
+
+}
+
+section:hover {
+    flex: 5;
+}
+
+section h1 {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 12px 32px;
+}
+
+
+.music-director {
+    background: url('../../images/piano-bw.jpg') #47a3da;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+
+.singer-songwriter {
+    background: url('../../images/mic-bw.jpg') #ffffff;
+    background-position: left;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
