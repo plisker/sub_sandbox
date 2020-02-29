@@ -211,3 +211,31 @@ section h2 {
     }
 
 }
+
+@media screen and (max-width: 567px) {
+    /* 
+
+    img {
+        width: 14em;
+        height: 14em;
+        border-radius: 50%;
+        position: absolute;
+        top: 100%;
+        right: 50vw;
+        transform: translateX(50%) translateY(-50%);
+    } */
+
+    section h1 {
+        border-radius: 10px;
+        padding: 8px 26px;
+        position: absolute;
+        top: 10vh;
+        right: 50vw;
+        transform: translateY(-50%) translateX(50%);
+        font-weight: 300;
+        font-size: 4em;
+        white-space: nowrap;
+        font-weight: 500;
+    }
+
+}
