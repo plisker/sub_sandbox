@@ -82,13 +82,13 @@ section h2 {
 }
 
 .music-director a:hover h2 {
-    background: #083627;
+    background: #883a20;
     color: white;
     transition: all 0.3s;
 }
 
 .music-director a:active h2 {
-    color: hotpink;
+    color: #e19ded;
 }
 
 .singer-songwriter {
@@ -108,13 +108,13 @@ section h2 {
 }
 
 .singer-songwriter a:hover h2 {
-    background: #083627;
+    background: #883a20;
     color: white;
     transition: all 0.3s;
 }
 
 .singer-songwriter a:active h2 {
-    color: hotpink;
+    color: #e19ded;
 }
 
 .singer-songwriter {
