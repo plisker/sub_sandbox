@@ -41,10 +41,10 @@ section:hover {
 }
 
 section h1 {
-    background: rgba(166, 38, 38, 0.8);
+    background: rgba(217, 162, 115, 0.8);
     border-radius: 20px;
     color: #ffffff;
-    padding: 12px 32px;
+    padding: 6px 32px;
     position: absolute;
     top: 85vh;
     right: 0vw;
