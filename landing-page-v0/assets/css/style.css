@@ -20,19 +20,20 @@ body {
 section {
     height: 100%;
     display: flex;
-    align-items: center;
+    /* align-items: baseline; */
     justify-content: center;
     flex: 9;
     transition: all 0.7s;
 }
 
 img {
-    width: 16em;
-    height: 16em;
+    width: 20em;
+    height: 20em;
     border-radius: 50%;
     position: absolute;
-    bottom: 5vh;
-    right: -8em;
+    bottom: 50vh;
+    right: -10em;
+    transform: translateY(50%);
 }
 
 section:hover {
@@ -40,16 +41,16 @@ section:hover {
 }
 
 section h1 {
-    background: #083627;
-    border-radius: 10px;
-    color: #da7a47;
+    background: rgba(166, 38, 38, 0.8);
+    border-radius: 20px;
+    color: #ffffff;
     padding: 12px 32px;
     position: absolute;
-    top: 15vh;
+    top: 85vh;
     right: 0vw;
     transform: translateY(-50%) translateX(50%);
-    font-size: 5em;
-    font-weight: 300;
+    font-size: 7em;
+    font-weight: 700;
 }
 
 section h2 {
@@ -57,10 +58,11 @@ section h2 {
     /* color: white; */
     border-radius: 20px;
     padding: 12px 20px;
-    font-size: 4em;
+    font-size: 2.8em;
     font-weight: 300;
     letter-spacing: -1px;
-
+    position: relative;
+    top: 15%;
 }
 
 .music-director {
@@ -82,13 +84,13 @@ section h2 {
 }
 
 .music-director a:hover h2 {
-    background: #883a20;
+    background: #a62626;
     color: white;
     transition: all 0.3s;
 }
 
 .music-director a:active h2 {
-    color: #e19ded;
+    color: #d9a273;
 }
 
 .singer-songwriter {
@@ -109,13 +111,13 @@ section h2 {
 }
 
 .singer-songwriter a:hover h2 {
-    background: #883a20;
+    background: #a62626;
     color: white;
     transition: all 0.3s;
 }
 
 .singer-songwriter a:active h2 {
-    color: #e19ded;
+    color: #d9a273;
 }
 
 @media screen and (max-width: 1110px) {
