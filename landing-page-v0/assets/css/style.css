@@ -19,6 +19,7 @@ h1 {
     h1 {
         -webkit-text-stroke: 3px black;
         -webkit-text-fill-color: #d9a273;
+        color: #d9a273;
     }
 }
 
@@ -26,6 +27,7 @@ h1 {
     h1 {
         background: rgba(217, 162, 115, 0.8);
         border-radius: 20px;
+        color: #ffffff;
     }
 }
 
@@ -63,8 +65,7 @@ section:hover {
 }
 
 section h1 {
-    color: #d9a273;
-    padding: 6px 32px;
+    padding: 6px 16px;
     position: absolute;
     top: 85vh;
     right: 0vw;
