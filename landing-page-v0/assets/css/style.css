@@ -15,21 +15,22 @@ h1 {
     font-family: 'Bowlby One SC', sans-serif;
 }
  */
+
+ h1 {
+        background: rgba(217, 162, 115, 0.8);
+        border-radius: 20px;
+        color: #ffffff;
+    }
+
 @supports (-webkit-text-stroke: 3px black) {
     h1 {
         -webkit-text-stroke: 3px black;
         -webkit-text-fill-color: #d9a273;
         color: #d9a273;
+        background: none;
     }
 }
 
-@supports not (-webkit-text-stroke: 3px black) {
-    h1 {
-        background: rgba(217, 162, 115, 0.8);
-        border-radius: 20px;
-        color: #ffffff;
-    }
-}
 
 h2 {
     font-family: "Lato", sans-serif;
@@ -72,6 +73,7 @@ section h1 {
     transform: translateY(-50%) translateX(50%);
     font-size: 7em;
     font-weight: 900;
+    color: #ffffff;
     white-space: nowrap;
 }
 
