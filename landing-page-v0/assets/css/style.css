@@ -51,6 +51,7 @@ section h1 {
     transform: translateY(-50%) translateX(50%);
     font-size: 7em;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 section h2 {
@@ -61,6 +62,7 @@ section h2 {
     font-size: 2.8em;
     font-weight: 300;
     letter-spacing: -1px;
+    white-space: nowrap;
     position: relative;
     top: 15%;
 }
@@ -120,52 +122,21 @@ section h2 {
     color: #d9a273;
 }
 
-@media screen and (max-width: 1110px) {
-
-    section h1 {
-        /* background: rgba(0, 0, 0, 1); */
-        /* color: white; */
-        border-radius: 17px;
-        padding: 10px 17px;
-        font-size: 4.5em;
-        font-weight: 300;
-        letter-spacing: -1px;
-
-    }
-
-    section h2 {
-        /* background: rgba(0, 0, 0, 1); */
-        /* color: white; */
-        border-radius: 17px;
-        padding: 10px 17px;
-        font-size: 3.5em;
-        font-weight: 300;
-        letter-spacing: -1px;
-
-    }
-}
-
 
 @media screen and (max-width: 907px) {
 
     section h1 {
-        /* background: rgba(0, 0, 0, 1); */
-        /* color: white; */
         border-radius: 17px;
-        padding: 10px 17px;
-        font-size: 3.5em;
-        font-weight: 300;
+        padding: 6px 17px;
+        font-size: 6em;
         letter-spacing: -1px;
 
     }
 
     section h2 {
-        /* background: rgba(0, 0, 0, 1); */
-        /* color: white; */
         border-radius: 17px;
         padding: 10px 17px;
         font-size: 2.5em;
-        font-weight: 300;
         letter-spacing: -1px;
 
     }
@@ -181,6 +152,7 @@ section h2 {
 
     section {
         height: 50vh;
+        align-items: baseline;
     }
 
     img {
@@ -195,30 +167,28 @@ section h2 {
 
     section h1 {
         border-radius: 10px;
-        padding: 12px 32px;
+        padding: 6px 20px;
+        font-size: 5em;
         position: absolute;
         top: 10vh;
         right: 50vw;
         transform: translateY(-50%) translateX(50%);
-        font-weight: 300;
-        font-size: 5em;
-        white-space: nowrap;
+
+    }
+
+    section h2 {
+        border-radius: 10px;
+        padding: 8px 12px;
+        position: relative;
+        font-size: 3em;
+        top: 25vh;
+        transform: translateY(-50%);
     }
 
 }
 
 @media screen and (max-width: 567px) {
-    /* 
 
-    img {
-        width: 14em;
-        height: 14em;
-        border-radius: 50%;
-        position: absolute;
-        top: 100%;
-        right: 50vw;
-        transform: translateX(50%) translateY(-50%);
-    } */
 
     section h1 {
         border-radius: 10px;
@@ -227,10 +197,17 @@ section h2 {
         top: 10vh;
         right: 50vw;
         transform: translateY(-50%) translateX(50%);
-        font-weight: 300;
         font-size: 4em;
-        white-space: nowrap;
-        font-weight: 300;
+    }
+
+
+    section h2 {
+        border-radius: 10px;
+        padding: 8px 12px;
+        position: relative;
+        font-size: 2.5em;
+        top: 25vh;
+        transform: translateY(-50%);
     }
 
 }
