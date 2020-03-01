@@ -9,8 +9,7 @@
  * [About page, v2](./about2/index.html)
 
 ## Personal Music
- * [Personal music, v1](./in-between1/index.html)
- * [Personal music, v2](./in-between2/index.html)
+ * [Singer-songwriter page, final](./singer-songwriter/index.html)
 
 ## Music Director
  * [Music director, v1](./musician-page1/index.html)
