@@ -97,13 +97,13 @@ section a {
 }
 
 section a:hover h2 {
-    background: #d9a273;
+    background: rgba(255, 255, 255, 0.25);
     color: white;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 section a:active h2 {
-    color: #a62626;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .music-director {
