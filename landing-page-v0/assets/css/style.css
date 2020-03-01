@@ -197,7 +197,7 @@ section a:active h2 {
         top: 10vh;
         right: 50vw;
         transform: translateY(-50%) translateX(50%);
-        font-size: 4em;
+        font-size: 4.5em;
     }
 
 
@@ -229,7 +229,7 @@ section a:active h2 {
         top: 10vh;
         right: 50vw;
         transform: translateY(-50%) translateX(50%);
-        font-size: 3.5em;
+        font-size: 4em;
         white-space: nowrap;
     }
 
@@ -266,7 +266,7 @@ section a:active h2 {
         top: 10vh;
         right: 50vw;
         transform: translateY(-50%) translateX(50%);
-        font-size: 3em;
+        font-size: 3.5em;
         white-space: nowrap;
     }
 
