@@ -1,2 +1,2 @@
 User-agent: *
-Allow: /landing-page-v0
+Allow: /
