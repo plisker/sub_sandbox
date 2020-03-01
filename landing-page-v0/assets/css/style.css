@@ -55,7 +55,7 @@ section {
 footer {
     color: rgba(255, 255, 255, 0.3);
     position: absolute;
-    top: 95vh;
+    bottom: 1em;
     left: 1em;
     text-wrap: nowrap;
     font-size: 1em;
@@ -250,7 +250,7 @@ section a:active h2 {
         top: 10vh;
         right: 50vw;
         transform: translateY(-50%) translateX(50%);
-        font-size: 4em;
+        font-size: 3.3em;
         white-space: nowrap;
     }
 
@@ -353,8 +353,8 @@ section a:active h2 {
     }
 
     img {
-        width: 12em;
-        height: 12em;
+        width: 9em;
+        height: 9em;
         top: 80%;
         right: 0%;
         transform: translateX(50%) translateY(-50%);
@@ -383,9 +383,13 @@ section a:active h2 {
         transform: translateY(-50%);
 
     }
+
+    footer {
+        font-size: 0.5em;
+    }
 }
 
-@media screen and (max-device-width: 736px) and (orientation: landscape) {
+@media screen and (max-device-width: 812px) and (orientation: landscape) {
 
     img {
         width: 6em;
