@@ -1,9 +1,7 @@
 # Sandbox page for Ian Miller
 
 ## Landing page
- * [Landing page, v0](./landing-page-v0/index.html)
- * [Landing page, v1](./landing-page-v1/index.html)
- * [Landing page, v2](./landing-page-v2/index.html)
+ * [Landing page, final](./landing-page/index.html)
 
 
 ## About
