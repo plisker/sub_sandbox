@@ -61,6 +61,21 @@ footer {
     font-size: 1em;
 }
 
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.5);
+    transition: all 0.7s;
+}
+
+footer a:active {
+    color: rgba(217, 162, 115, 0.75);
+}
+
 img {
     width: 20em;
     height: 20em;
@@ -74,6 +89,7 @@ img {
 section:hover {
     flex: 10;
 }
+
 
 section h1 {
     padding: 6px 16px;
