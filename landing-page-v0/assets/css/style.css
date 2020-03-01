@@ -16,11 +16,11 @@ h1 {
 }
  */
 
- h1 {
-        background: rgba(217, 162, 115, 0.8);
-        border-radius: 20px;
-        color: #ffffff;
-    }
+h1 {
+    background: rgba(217, 162, 115, 0.8);
+    border-radius: 20px;
+    color: #ffffff;
+}
 
 @supports (-webkit-text-stroke: 1px black) {
     h1 {
@@ -92,6 +92,20 @@ section h2 {
     top: 15%;
 }
 
+section a {
+    text-decoration: none;
+}
+
+section a:hover h2 {
+    background: #d9a273;
+    color: white;
+    transition: all 0.3s;
+}
+
+section a:active h2 {
+    color: #a62626;
+}
+
 .music-director {
     background: url('../../images/piano-bw.jpg') #377ba6;
     background-position: center;
@@ -101,24 +115,6 @@ section h2 {
     position: relative;
 }
 
-.music-director a {
-    text-decoration: none;
-}
-
-/* .music-director h2 {
-    background: #ffffff;
-    color: #47a3da;
-}
- */
-.music-director a:hover h2 {
-    background: #d9a273;
-    color: white;
-    transition: all 0.3s;
-}
-
-.music-director a:active h2 {
-    color: #a62626;
-}
 
 .singer-songwriter {
     background: url('../../images/mic-bw.jpg') #545454;
@@ -126,25 +122,6 @@ section h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-}
-
-.singer-songwriter a {
-    text-decoration: none;
-}
-
-/* .singer-songwriter h2 {
-    background: #47a3da;
-    color: #ffffff;
-}
- */
-.singer-songwriter a:hover h2 {
-    background: #d9a273;
-    color: white;
-    transition: all 0.3s;
-}
-
-.singer-songwriter a:active h2 {
-    color: #a62626;
 }
 
 
