@@ -1,2 +1,2 @@
-# Landing Page, v0
-Option 0 for landing page
+# Landing Page
+Final design and content for landing page
