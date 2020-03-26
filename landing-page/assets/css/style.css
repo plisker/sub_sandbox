@@ -61,7 +61,9 @@ footer {
     font-size: 1em;
 }
 
-footer > a, a:link, a:visited {
+footer>a,
+a:link,
+a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -118,7 +120,9 @@ section h2 {
     top: 15%;
 }
 
-section > a, a:link, a:visited {
+section>a,
+a:link,
+a:visited {
     text-decoration: none;
 }
 
