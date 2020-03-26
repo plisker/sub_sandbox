@@ -2594,6 +2594,10 @@ input, select, textarea {
 			width: 2.75em;
 		}
 
+		.icon.style0 {
+			font-size: 0.9rem;
+		}
+
 		.icon.major {
 			display: block;
 			margin: 0 0 1rem 0;
