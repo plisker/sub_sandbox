@@ -7,4 +7,4 @@
  * [Singer-songwriter page, final](./singer-songwriter/index.html)
 
 ## Music Director
- * [Music director, final](./musician-page/index.html)
+ * [Music director, final](./music-director/index.html)
