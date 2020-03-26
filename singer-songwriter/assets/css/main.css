@@ -4950,11 +4950,6 @@ input, select, textarea {
 				min-width: 0;
 			}
 
-			.spotlight.style0 .image iframe {
-				width: 50%;
-				min-width: 0;
-			}
-
 		}
 
 		@media screen and (max-width: 736px) {
