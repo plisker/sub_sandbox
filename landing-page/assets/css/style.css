@@ -88,6 +88,10 @@ img {
     transform: translateY(50%);
 }
 
+body {
+    background: #000000;
+}
+
 section:hover {
     flex: 10;
 }
