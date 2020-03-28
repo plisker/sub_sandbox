@@ -1,8 +1,7 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
-		$wrapper = $('#wrapper');
+		$body = $('body');
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
