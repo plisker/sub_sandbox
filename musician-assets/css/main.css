@@ -127,7 +127,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			html {
 				font-size: 12pt;
@@ -836,7 +836,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.row {
 				display: flex;
@@ -3520,7 +3520,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.banner.style1 .content {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -3723,7 +3723,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.banner.style2 {
 				padding: 4rem 3rem 2rem 3rem ;
@@ -3884,7 +3884,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.banner.style3 {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -4116,7 +4116,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.banner.style4 {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -4340,7 +4340,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.banner.style5 {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -4933,7 +4933,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.spotlight.style0 .content {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -5116,7 +5116,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.spotlight.style1 .content {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -5317,7 +5317,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.spotlight.style2 {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -5540,7 +5540,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.spotlight.style3 {
 				padding: 4rem 4rem 2rem 4rem ;
@@ -5766,7 +5766,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.spotlight.style4 {
 				padding: 4rem 3rem 2rem 3rem ;
@@ -5946,7 +5946,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.spotlight.style5 {
 				padding: 4rem 3rem 2rem 3rem ;
@@ -6796,7 +6796,7 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.gallery.style1 article {
 				width: 33.33333%;
@@ -6840,7 +6840,7 @@ input, select, textarea {
 				padding: 1rem;
 			}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.gallery.style1.small article {
 				width: 25%;
@@ -6884,7 +6884,7 @@ input, select, textarea {
 				padding: 3rem;
 			}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.gallery.style1.big article {
 				width: 50%;
@@ -7472,7 +7472,7 @@ input, select, textarea {
 
 	}
 
-	@media screen and (max-width: 1350px) {
+	@media screen and (max-width: 1440px) {
 
 		.wrapper.style1 > .inner {
 			padding: 4rem 4rem 2rem 4rem ;
@@ -7534,7 +7534,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.wrapper.style2 {
 				padding: 4rem;
@@ -7920,7 +7920,7 @@ input, select, textarea {
 				border-left-width: 0;
 			}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.items.style1.small > *:nth-child(-n + 4) {
 				border-top-width: 1px;
@@ -8149,7 +8149,7 @@ input, select, textarea {
 				border-left-width: 0;
 			}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.items.style2.small > *:nth-child(-n + 4) {
 				border-top-width: 1px;
@@ -8332,7 +8332,7 @@ input, select, textarea {
 			width: 25%;
 		}
 
-		@media screen and (max-width: 1350px) {
+		@media screen and (max-width: 1440px) {
 
 			.items.style3.small > * {
 				padding: 1.09375rem 1.09375rem 0.1rem 1.09375rem ;
