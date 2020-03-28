@@ -444,3 +444,37 @@ section a:active h2 {
 
     }
 }
+
+
+/* Transitions */
+
+.onload h1 {
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    -moz-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+body.is-preload .onload h1{
+    opacity: 0;
+}
+
+.onload .image img {
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    -moz-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+}
+
+body.is-preload .onload .image img {
+    opacity: 0;
+}
+

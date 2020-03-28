@@ -20,22 +20,27 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Ian Miller | Music Director · Singer-Songwriter</title>
     <meta name="description" content="Ian Miller is NYC-based singer-songwriter, pianist, and theater music director.">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 </head>
 
-<body>
+<body class="is-preload">
     <div class="container">
-        <section class="music-director">
+        <section class="music-director onload">
             <h1>Ian Miller</h1>
             <a href="https://sandbox.lisker.me/music-director/index.html">
                 <h2>Music Director</h2>
             </a>
-            <picture>
-                <source type="image/webp" srcset="images/avatar-blue-400.webp" alt="Ian Miller headshot">
-                <source type="image/jpeg" srcset="images/avatar-blue-400.jpg" alt="Ian Miller headshot">
-                <img src="images/avatar-blue-400.jpg" alt="Ian Miller headshot">
-            </picture>
+            <div class="image">
+                <picture>
+                    <source type="image/webp" srcset="images/avatar-blue-400.webp" alt="Ian Miller headshot">
+                    <source type="image/jpeg" srcset="images/avatar-blue-400.jpg" alt="Ian Miller headshot">
+                    <img src="images/avatar-blue-400.jpg" alt="Ian Miller headshot">
+                </picture>
+            </div>
         </section>
-        <section class="singer-songwriter">
+        <section class="singer-songwriter onload">
             <a href="https://sandbox.lisker.me/singer-songwriter/index.html">
                 <h2>Singer-Songwriter</h2>
             </a>
@@ -44,6 +49,16 @@
             <p>&copy; 2020, Ian Miller. | Design and Webmaster: <a href="https://lisker.me" target="_blank" rel="noopener">Paul Lisker</a></p>
         </footer>
     </div>
+        <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
+
 
 </html>
