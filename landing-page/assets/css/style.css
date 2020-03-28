@@ -445,9 +445,7 @@ section a:active h2 {
     }
 }
 
-
 /* Transitions */
-
 .onload h1 {
     -moz-transition: opacity 1s ease-in-out;
     -webkit-transition: opacity 1s ease-in-out;
@@ -459,7 +457,7 @@ section a:active h2 {
     transition-delay: 0.3s;
 }
 
-body.is-preload .onload h1{
+body.is-preload .onload h1 {
     opacity: 0;
 }
 
@@ -477,4 +475,3 @@ body.is-preload .onload h1{
 body.is-preload .onload .image img {
     opacity: 0;
 }
-
