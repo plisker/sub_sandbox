@@ -1,2 +1,2 @@
-# Ian Miller's Website
-Ian Miller's personal [website](https://musicianmiller.com).
+# Sandbox Subdomain
+A sandbox subdomain for project development.
